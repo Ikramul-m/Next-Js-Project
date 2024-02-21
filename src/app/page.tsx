@@ -1,57 +1,10 @@
-import Link from "next/link";
 
 export default function Home() {
-  return <>
-
-  <h1>Hello Beta</h1>
-
-    {/* <nav>
-
-      <label htmlFor="">Colorib</label>
-
-      <ul className="menu-bar">
-
-        <li>
-          <Link href="/">
-            HOME
-          </Link>
-        </li>
-
-        <li>
-          <Link href="about">
-            ABOUT
-          </Link>
-        </li>
-
-
-        <li>
-          <Link href="domain">
-            DOMAIN
-          </Link>
-        </li>
-
-
-        <li>
-          <Link href="hosting">
-            HOSTING
-          </Link>
-        </li>
-
-
-        <li>
-          <Link href="blog">
-            BLOG
-          </Link>
-        </li>
-
-
-        <li>
-          <Link href="contact">
-            CONTACT
-          </Link>
-        </li>
-
-      </ul>
-    </nav> */}
-  </>;
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-blue-700 to-lightBlue-400">
+      <div className="flex justify-start fixed top-12 left-9 max-w-2xl z-50">
+        <h1 className="text-2xl margin-2px font-roboto bg-gradient-to-br text-transparent bg-clip-text from-red-500 to-green-400">ColorLib</h1>
+      </div>
+    </div>
+  );
 }
